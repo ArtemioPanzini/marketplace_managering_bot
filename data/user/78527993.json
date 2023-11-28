@@ -1,0 +1,59 @@
+{
+  "business_id": 79508170,
+  "warehouse_id": 78527993,
+  "y_sklad_id": 1234240,
+  "stocks": true,
+  "minimum_stock": 4,
+  "prices": true,
+  "minimum_price": 11112,
+  "discounts":
+        {
+          "discount_time":
+            {
+              "work_time": ["8:30", "19:30"],
+              "rest_day": ["19:31", "8:29"],
+              "weekends": ["Saturday", "Sunday"]
+            }
+        },
+  "artelamp":
+        {
+          "work_time": false,
+          "rest_day": true,
+          "weekends": true,
+          "discount_value": 0.899
+        },
+  "favourite":
+        {
+          "work_time": true,
+          "rest_day": true,
+          "weekends": true,
+          "discount_value": 0.899
+        },
+  "lightstar":
+        {
+          "work_time": true,
+          "rest_day": true,
+          "weekends": true,
+          "discount_value": 0.899
+        },
+  "maytoni":
+        {"work_time": true,
+          "rest_day": true,
+          "weekends": true,
+          "discount_value": 0.899
+        },
+  "sonex":
+        {
+          "work_time": false,
+          "rest_day": false,
+          "weekends": false,
+          "discount_value": 1.0
+        },
+  "stilfort":
+        {
+          "work_time": true,
+          "rest_day": true,
+          "weekends": true,
+          "discount_value": 0.899
+        }
+}
